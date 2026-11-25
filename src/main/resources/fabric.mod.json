@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "farmhand",
+	"version": "${version}",
+	"name": "Farmhand",
+	"description": "Farmer villagers keep replanting and put their surplus crops into a nearby chest or barrel. No new items or blocks.",
+	"authors": [
+		"Uipg9"
+	],
+	"contact": {
+		"homepage": "https://github.com/Uipg9/farmhand",
+		"sources": "https://github.com/Uipg9/farmhand",
+		"issues": "https://github.com/Uipg9/farmhand/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/farmhand/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.brian.farmhand.Farmhand"
+		],
+		"fabric-client-gametest": [
+			"dev.brian.farmhand.client.FarmhandClientGameTest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
